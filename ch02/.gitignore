@@ -1,0 +1,12 @@
+creat
+lseek
+open
+posix
+read
+pread
+pselect
+pwrite
+select
+select2
+write
+truncate
