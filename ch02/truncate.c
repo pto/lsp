@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 		exit(EXIT_FAILURE);
 	}
 
-	off_t length = atoi(argv[2]);
+	off_t length = atol(argv[2]);
 
 	int rc = truncate(argv[1], length);
 	if (rc == -1) {
