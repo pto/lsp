@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
 		exit(EXIT_FAILURE);
 	}
 	if (count != COUNT) {
-		printf("pread: warning: only read %ld characters\n", count);
+		printf("pread: warning: only read %ld characters\n", (long)count);
 	}
 	buf[count] = '\0';
 
@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
 		exit(EXIT_FAILURE);
 	}
 	if (count != COUNT) {
-		printf("pread: warning: only read %ld characters\n", count);
+		printf("pread: warning: only read %ld characters\n", (long)count);
 	}
 	buf[count] = '\0';
 
