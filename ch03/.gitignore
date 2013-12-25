@@ -3,3 +3,4 @@ fdopen
 fgetc
 fopen
 ungetc
+fgets
