@@ -4,3 +4,4 @@ fgetc
 fopen
 ungetc
 fgets
+fgetstr
