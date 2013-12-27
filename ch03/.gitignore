@@ -5,3 +5,4 @@ fopen
 ungetc
 fgets
 fgetstr
+fread
