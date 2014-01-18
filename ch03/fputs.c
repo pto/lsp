@@ -14,10 +14,12 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 
-	if (fputs("The ship is made of wood.\n", stream) == EOF) {
+	int rc = fputs("The ship is made of wood.\n", stream);
+	if (rc == EOF) {
 		perror("fputs");
 		exit(1);
 	}
+   	printf("rc = %d\n", rc);
 
 	if (fclose(stream) == EOF) {
 		perror("fclose");
