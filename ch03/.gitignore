@@ -6,3 +6,4 @@ ungetc
 fgets
 fgetstr
 fread
+fputs
